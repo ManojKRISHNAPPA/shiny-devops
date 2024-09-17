@@ -1,2 +1,2 @@
 # shiny-devops
-# This is branch is created by Kavya
+# This branch is created by Kavya
