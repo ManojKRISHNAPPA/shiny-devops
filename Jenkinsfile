@@ -33,6 +33,14 @@ pipeline{
                 date
                 '''
             }
-        }               
+        }
+        stage('current process'){
+            steps{
+                sh '''
+                echo "current process"
+                ps -eaf | head
+                '''
+            }
+        }                        
     }
 }
