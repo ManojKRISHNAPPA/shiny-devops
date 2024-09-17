@@ -1,0 +1,13 @@
+pipeline{
+agent any
+stages{
+stage('build-system details'){
+steps{
+sh'''
+echo "system details"
+uname -a
+'''
+}
+}
+}
+}
