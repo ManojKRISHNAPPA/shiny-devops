@@ -4,3 +4,4 @@ this is about git merge conflict
 line3
 line-4
 line-5
+line 6
