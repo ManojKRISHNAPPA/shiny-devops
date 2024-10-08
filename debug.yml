@@ -1,0 +1,8 @@
+- name: testing vault
+  hosts: all
+  vars_files:
+  - secret.yml
+  tasks:
+  - name: show secret passsowrd
+    debug:
+      msg: "this secret password is : {{ vault_password }}"

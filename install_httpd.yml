@@ -1,0 +1,9 @@
+- name: this playbook to copy a file
+  hosts: all
+    # become: true
+  tasks:
+  - name: install package
+    yum: 
+      name: httpd
+      state: installed
+

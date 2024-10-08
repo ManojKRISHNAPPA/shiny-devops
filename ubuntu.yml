@@ -1,0 +1,8 @@
+- name: this playbook to copy a file
+  hosts: uat
+  become: true
+  tasks:
+  - name: install package
+    apt: 
+      name: apache2
+      state: present
