@@ -29,7 +29,7 @@ pipeline{
         stage('date'){
             steps{
                 sh '''
-                echo "todays"
+                echo "todays test"
                 date
                 '''
             }
